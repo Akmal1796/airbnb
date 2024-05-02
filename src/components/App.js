@@ -15,12 +15,8 @@ function App() {
     return (
             <Card 
               key = {data.id}
-                img = {data.img} 
-                rating = {data.rating} 
-                reviewCount = {data.reviewCount} 
-                country = {data.country} 
-                title = {data.title} 
-                price = {data.price}
+              data = {data}
+              /* {...data}  we can use this es6 syntax instead of above one, and we need to change in the card.js file to props.data.img -> props.img */
             />
           )
   });

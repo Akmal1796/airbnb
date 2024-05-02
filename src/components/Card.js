@@ -4,18 +4,30 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons';
 
 function Card(props) {
+
+    let badgeText
+
+    if(props.data.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    }
+    else if(props.data.location === "Online") {
+        badgeText = "ONLINE"
+    }
+
+
     return(
         <div className="card">
-            <img src={require(`../images/${props.img}`)} className="card-img" />
+            {badgeText && <div className="badge">{badgeText}</div>}
+            <img src={require(`../images/${props.data.img}`)} className="card-img" />
             <div className="card-stats">
                 <img src={require('../images/star.png')} className="star" />
-                <span>{props.rating}</span>
-                <span className="gray">({props.reviewCount})・</span>
-                <span className="gray">{props.country}</span>
+                <span>{props.data.rating}</span>
+                <span className="gray">({props.data.reviewCount})・</span>
+                <span className="gray">{props.data.country}</span>
             </div>
             <div className="card-text">
-                <p>{props.title}</p>
-                <p><span className="bold">From ${props.price} </span>/ person</p>
+                <p>{props.data.title}</p>
+                <p><span className="bold">From ${props.data.price} </span>/ person</p>
             </div>
         </div>
     );

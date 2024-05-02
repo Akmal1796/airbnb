@@ -8,7 +8,9 @@ export default [
         reviewCount: 6,
         country: "USA",
         title:"Life Lessons with Katie Zafers",
-        price: 136
+        price: 136,
+        location: "Online",
+        openSpots: 0
     },
     { 
         id: 2,
@@ -17,7 +19,9 @@ export default [
         reviewCount : 30,
         country : "USA",
         title : "Learn Wedding Photography",
-        price : 125
+        price : 125,
+        location: "Online",        
+        openSpots: 22
     },
     {
         id: 3,
@@ -26,7 +30,8 @@ export default [
         reviewCount : 2,
         country : "USA",
         title : "Group Mountain Biking",
-        price : 50
+        price : 50,
+        openSpots: 2
     },
     {
         id: 4,
@@ -35,7 +40,9 @@ export default [
         reviewCount: 6,
         country: "USA",
         title:"Life Lessons with Katie Zafers",
-        price: 136
+        price: 136,
+        location: "Online",
+        openSpots: 0
     },
     { 
         id: 5,
@@ -44,7 +51,8 @@ export default [
         reviewCount : 30,
         country : "USA",
         title : "Learn Wedding Photography",
-        price : 125
+        price : 125,
+        openSpots: 22
     },
     {
         id: 6,
@@ -53,7 +61,9 @@ export default [
         reviewCount : 2,
         country : "USA",
         title : "Group Mountain Biking",
-        price : 50
+        price : 50,
+        location: "Online",
+        openSpots: 2
     },
     {
         id: 7,
@@ -62,7 +72,9 @@ export default [
         reviewCount: 6,
         country: "USA",
         title:"Life Lessons with Katie Zafers",
-        price: 136
+        price: 136,
+        location: "Online",
+        openSpots: 0
     },
     { 
         id: 8,
@@ -71,7 +83,9 @@ export default [
         reviewCount : 30,
         country : "USA",
         title : "Learn Wedding Photography",
-        price : 125
+        price : 125,
+        location: "Online",
+        openSpots: 20
     },
     {
         id: 9,
@@ -80,7 +94,9 @@ export default [
         reviewCount : 2,
         country : "USA",
         title : "Group Mountain Biking",
-        price : 50
+        price : 50,
+        location: "Online",
+        openSpots: 0
     },
     {
         id: 10,
@@ -89,7 +105,8 @@ export default [
         reviewCount: 6,
         country: "USA",
         title:"Life Lessons with Katie Zafers",
-        price: 136
+        price: 136,
+        openSpots: 3
     },
     { 
         id: 11,
@@ -98,7 +115,9 @@ export default [
         reviewCount : 30,
         country : "USA",
         title : "Learn Wedding Photography",
-        price : 125
+        price : 125,
+        location: "Online",
+        openSpots: 10
     },
     {
         id: 12,
@@ -107,6 +126,8 @@ export default [
         reviewCount : 2,
         country : "USA",
         title : "Group Mountain Biking",
-        price : 50
+        price : 50,
+        location: "Online",
+        openSpots: 0
     }
 ]
